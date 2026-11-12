@@ -1,32 +1,39 @@
 # Stampa del biglietto
 
-File pronto: `assets/card-a5.pdf` — 2 pagine, A4 orizzontale (297 × 210 mm), piega centrale.
+Ci sono due versioni. **Consigliata: A6 pieghevole in 4** (`assets/card-a6.pdf`).
 
-## Impostazioni
+## A6 pieghevole in 4 — un solo lato
 
-- **Scala 100%** (disattiva "adatta alla pagina" / "fit to page")
-- **Fronte/retro**, rilegatura **lato lungo**
-- Carta consigliata: **250–300 g/m² opaca** (o cartoncino bianco)
-- Colori: qualità normale/alta, il fondo crema è volutamente pieno
+File: `assets/card-a6.pdf` — **1 pagina A4 verticale, da stampare su un lato solo**.
 
-## Ordine dei pannelli
+- **Scala 100%** (disattiva "adatta alla pagina")
+- Carta consigliata: **250–300 g/m² opaca**
+- Un solo lato: le quattro facciate sono già tutte sul foglio
 
-| Pagina | Sinistra | Destra |
-|---|---|---|
-| 1 (esterno) | retro del biglietto | **copertina con QR** |
-| 2 (interno) | dedica | come aprirlo |
+### Pieghe
 
-Si stampa il foglio, si piega in due lungo i trattini al centro, e la copertina finisce davanti.
+1. Piega il foglio a metà in orizzontale, portando la **metà superiore dietro** (la copertina con il QR resta davanti).
+2. Piega di nuovo a metà in verticale, portando la **metà sinistra dietro**.
+3. Ottieni un biglietto **A6 (105 × 148,5 mm)**: davanti la copertina con il QR, dietro il retro, e aprendo la dedica e le istruzioni.
 
-## Se la stampante non fa il fronte/retro
+I trattini sui bordi indicano le due linee di piega. Fai prima una prova su carta normale e, se la copertina non finisce davanti, inverti il verso della prima piega.
 
-1. Stampa solo **pagina 1**.
-2. Rimetti il foglio nel vassoio e stampa **pagina 2** sul retro.
-3. Prima di stampare tutto, fai **una prova su carta normale** e controlla che la piega combaci.
+### Controllo
 
-## Controllo prima di stampare
+- Il QR è **26 mm** sul biglietto: nero su fondo chiaro, senza riflessi.
+- Provalo **da due telefoni diversi**.
+- `assets/card-a6-facce.png` mostra le quattro facciate come appariranno.
 
-- Il QR deve essere **almeno 31 mm** di lato, nero su fondo chiaro, senza riflessi.
-- Prova a scansionarlo **da due telefoni diversi**, alla luce di casa.
-- Il QR punta a <https://fabiomatricardi.github.io/40/> (non cambia e non scade).
-- `assets/qr.png` (2048 px) e `assets/qr.svg` sono disponibili se vuoi il QR da solo, per un altro supporto.
+## A5 pieghevole (versione precedente)
+
+File: `assets/card-a5.pdf` — 2 pagine A4 orizzontale, da stampare **fronte/retro**.
+
+- **Scala 100%**, rilegatura **lato lungo**
+- Pagina 1 = esterno (retro a sinistra, copertina a destra)
+- Pagina 2 = interno (dedica a sinistra, istruzioni a destra)
+- Si stampa un foglio, si piega in due lungo i trattini al centro
+
+## QR
+
+Il QR punta a <https://fabiomatricardi.github.io/40/> (non cambia e non scade).
+Se serve da solo: `assets/qr.png` (2048 px) e `assets/qr.svg`.
