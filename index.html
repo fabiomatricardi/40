@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#f6f1e7">
+<title>Buon compleanno, Andrea — 40</title>
+<meta name="description" content="Un regalo di compleanno per i quarant'anni di Andrea.">
+<style>
+  :root{
+    --paper:#f6f1e7;
+    --paper-2:#efe7d8;
+    --ink:#17202a;
+    --ink-soft:#4a5560;
+    --teal:#0e5b57;
+    --teal-soft:#13736d;
+    --clay:#b4552d;
+    --line:rgba(23,32,42,.14);
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 700px at 85% -10%, rgba(14,91,87,.10), transparent 60%),
+      radial-gradient(900px 600px at -10% 110%, rgba(180,85,45,.08), transparent 60%),
+      var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    line-height:1.6;
+    min-height:100vh;
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:32px 22px 56px}
+  .top{
+    display:flex;justify-content:space-between;align-items:center;gap:16px;
+    font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink-soft);border-bottom:1px solid var(--line);padding-bottom:14px;
+  }
+  .top b{color:var(--teal);font-weight:600;letter-spacing:.14em}
+
+  .hero{position:relative;padding:52px 0 34px;text-align:center;overflow:hidden}
+  .ring{
+    position:absolute;left:50%;top:50%;width:min(74vw,470px);aspect-ratio:1;
+    transform:translate(-50%,-50%);border-radius:50%;
+    border:1px dashed rgba(14,91,87,.22);
+    pointer-events:none;
+  }
+  .ring::after{
+    content:"";position:absolute;inset:18px;border-radius:50%;
+    border:1px solid rgba(14,91,87,.10);
+  }
+  .kicker{
+    position:relative;font-size:13px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--clay);margin:0 0 10px;font-weight:600;
+  }
+  h1{
+    position:relative;font-family:var(--serif);font-weight:400;
+    font-size:clamp(34px,7vw,62px);line-height:1.05;margin:0;
+    letter-spacing:-.01em;
+  }
+  h1 em{font-style:italic;color:var(--teal)}
+  .forty{
+    position:relative;font-family:var(--serif);
+    font-size:clamp(96px,26vw,220px);line-height:.85;
+    color:transparent;-webkit-text-stroke:1.5px rgba(14,91,87,.34);
+    margin:6px 0 -6px;user-select:none;
+  }
+  .forty span{
+    -webkit-text-stroke:0;color:var(--teal);
+    font-style:italic;font-size:.42em;vertical-align:super;letter-spacing:.04em;
+  }
+  .tagline{
+    position:relative;max-width:520px;margin:14px auto 0;
+    font-family:var(--serif);font-size:clamp(18px,2.6vw,23px);
+    color:var(--ink-soft);line-height:1.5;
+  }
+  .tagline strong{color:var(--ink);font-weight:400;font-style:italic}
+
+  .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:34px;align-items:center;margin-top:26px}
+  @media (max-width:760px){.grid{grid-template-columns:1fr;gap:26px}}
+
+  /* book mockup */
+  .book-stage{display:flex;justify-content:center;perspective:1200px}
+  .book{
+    position:relative;width:min(240px,62vw);aspect-ratio:2/3;
+    background:linear-gradient(145deg,#0f5f5a,#0a4a46 55%,#083b38);
+    border-radius:4px 9px 9px 4px;
+    box-shadow:0 26px 45px -18px rgba(9,45,43,.55), 0 2px 0 rgba(255,255,255,.15) inset;
+    transform:rotate(-3deg);
+    padding:22px 18px;display:flex;flex-direction:column;justify-content:space-between;
+    color:#f3ece0;overflow:hidden;
+  }
+  .book::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:11px;
+    background:linear-gradient(90deg,rgba(0,0,0,.32),transparent);
+  }
+  .book::after{
+    content:"";position:absolute;right:14px;bottom:76px;width:52px;height:52px;
+    border-radius:50%;border:1px solid rgba(243,236,224,.35);
+  }
+  .book .b-kicker{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:rgba(243,236,224,.65)}
+  .book .b-title{font-family:var(--serif);font-size:clamp(19px,4.4vw,25px);line-height:1.15;margin:8px 0}
+  .book .b-title i{display:block;font-size:.78em;color:#e7c9a6;margin-top:4px}
+  .book .b-author{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(243,236,224,.8)}
+  .book .b-mark{
+    position:absolute;right:14px;bottom:14px;font-family:var(--serif);
+    font-size:44px;font-style:italic;color:rgba(243,236,224,.22);line-height:1;
+  }
+
+  .panel{background:rgba(255,255,255,.45);border:1px solid var(--line);border-radius:18px;padding:26px 26px 24px}
+  .panel h2{font-family:var(--serif);font-weight:400;font-size:25px;margin:0 0 8px;line-height:1.2}
+  .panel p{margin:0 0 14px;color:var(--ink-soft);font-size:15.5px}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    background:var(--teal);color:#fff;text-decoration:none;
+    padding:15px 22px;border-radius:999px;font-weight:600;font-size:16px;
+    box-shadow:0 12px 24px -12px rgba(14,91,87,.7);
+    transition:transform .15s ease, background .15s ease;
+    width:100%;justify-content:center;
+  }
+  .btn:hover{background:var(--teal-soft);transform:translateY(-1px)}
+  .btn svg{flex:none}
+  .meta{font-size:12.5px;color:var(--ink-soft);text-align:center;margin-top:10px}
+  .meta code{font-size:12.5px;background:rgba(23,32,42,.06);padding:2px 6px;border-radius:5px}
+
+  section{margin-top:52px}
+  .eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);font-weight:600;margin:0 0 10px}
+  h3{font-family:var(--serif);font-weight:400;font-size:clamp(23px,3.6vw,30px);margin:0 0 12px;line-height:1.2}
+  .lead{font-size:16.5px;color:var(--ink-soft);max-width:66ch;margin:0}
+
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+  @media (max-width:720px){.cards{grid-template-columns:1fr}}
+  .card{background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h4{margin:0 0 6px;font-size:15px;letter-spacing:.02em}
+  .card p{margin:0;font-size:14px;color:var(--ink-soft)}
+  .card .n{font-family:var(--serif);font-style:italic;color:var(--teal);font-size:22px;line-height:1;display:block;margin-bottom:8px}
+
+  .dedica{
+    margin-top:52px;background:linear-gradient(160deg,rgba(14,91,87,.08),rgba(180,85,45,.06));
+    border:1px solid var(--line);border-radius:20px;padding:30px 30px 26px;position:relative;
+  }
+  .dedica::before{
+    content:"“";position:absolute;top:-6px;left:20px;font-family:var(--serif);
+    font-size:78px;color:rgba(14,91,87,.18);line-height:1;
+  }
+  .dedica p{font-family:var(--serif);font-size:clamp(17px,2.5vw,21px);line-height:1.65;margin:0 0 12px;color:var(--ink)}
+  .dedica .ps{font-family:var(--sans);font-size:14.5px;color:var(--ink-soft);margin:14px 0 0;padding-top:14px;border-top:1px dashed var(--line)}
+  .dedica .sign{font-family:var(--serif);font-style:italic;color:var(--teal);font-size:17px;margin-top:16px}
+
+  footer{margin-top:46px;border-top:1px solid var(--line);padding-top:18px;
+    display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between;
+    font-size:12.5px;color:var(--ink-soft)}
+  footer .dot{color:var(--clay)}
+  a{color:var(--teal)}
+  a:focus-visible,.btn:focus-visible{outline:3px solid rgba(180,85,45,.5);outline-offset:3px;border-radius:8px}
+
+  @media (prefers-reduced-motion:reduce){
+    .btn{transition:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <span>Per Andrea</span>
+    <span><b>Quaranta</b> &nbsp;·&nbsp; Corea del Sud</span>
+  </div>
+
+  <header class="hero">
+    <div class="ring" aria-hidden="true"></div>
+    <p class="kicker">Buon compleanno</p>
+    <h1>Andrea, oggi hai <em>quaranta</em>.</h1>
+    <div class="forty" aria-hidden="true">40<span>’</span></div>
+    <p class="tagline">
+      Un minuto per aprire il regalo. <strong>Il resto della vita per usarlo bene.</strong>
+    </p>
+  </header>
+
+  <div class="grid">
+    <div class="book-stage" aria-hidden="true">
+      <div class="book">
+        <div>
+          <div class="b-kicker">Ken Blanchard</div>
+          <div class="b-title">La self leadership<i>e l’One Minute Manager</i></div>
+        </div>
+        <div class="b-author">Sperling &amp; Kupfer</div>
+        <div class="b-mark">1′</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Il tuo regalo è qui.</h2>
+      <p>Un libro breve, diretto, che parla di una cosa sola: prima di guidare un cantiere — o una squadra — si impara a guidare se stessi. Direi che c’entra.</p>
+      <a class="btn" href="https://github.com/fabiomatricardi/topic-exploration/raw/main/my_products/La%20self%20leadership%20e%20l'One%20Minute%20Manager_%20Ken%20Blanchard.epub" download="La self leadership e l'One Minute Manager - Ken Blanchard.epub" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v13"/><path d="m7 11 5 5 5-5"/><path d="M4 21h16"/></svg>
+        Scarica il tuo regalo
+      </a>
+      <p class="meta">EPUB · italiano · 683 KB — <code>La self leadership e l’One Minute Manager</code></p>
+    </div>
+  </div>
+
+  <section>
+    <p class="eyebrow">Perché proprio questo</p>
+    <h3>Non è un manuale su come comandare gli altri.</h3>
+    <p class="lead">È la storia di un manager che scopre di dover partire da sé: obiettivi chiari, feedback onesto, responsabilità personale. A quarant’anni, con un cantiere in Corea e una carriera davanti, è il tipo di lettura che si fa in un paio di sere e resta addosso per anni.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Come aprirlo</p>
+    <h3>Due minuti, poi si legge.</h3>
+    <div class="cards">
+      <div class="card">
+        <span class="n">01</span>
+        <h4>iPhone / iPad</h4>
+        <p>Scarica il file, aprilo dall’app File e tocca “Condividi” → <em>Libri</em>. Lo trovi nella tua libreria.</p>
+      </div>
+      <div class="card">
+        <span class="n">02</span>
+        <h4>Android</h4>
+        <p>Va benissimo <em>Google Play Books</em>: dopo il download scegli “Apri con” e il libro entra in libreria.</p>
+      </div>
+      <div class="card">
+        <span class="n">03</span>
+        <h4>E-reader</h4>
+        <p>Su Kobo, PocketBook o KOReader copia l’EPUB nella cartella dei libri. È senza DRM: si apre ovunque.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="dedica">
+    <p>Auguri, Andrea.<br>
+    40 anni, un cantiere in Corea del Sud e ancora voglia di crescere: questo libro parla un po’ di te.</p>
+    <p class="ps">P.S. Se in riunione senti “fissiamo gli obiettivi”, non è il libro: è il cantiere.</p>
+    <p class="sign">— Fabio</p>
+  </div>
+
+  <footer>
+    <span>Fatto con affetto <span class="dot">·</span> Corea del Sud</span>
+    <span>Se il link non funziona, scrivimi e te lo mando io.</span>
+  </footer>
+
+</div>
+</body>
+</html>
